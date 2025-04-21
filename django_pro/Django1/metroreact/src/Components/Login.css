@@ -1,0 +1,64 @@
+
+
+.mainpage{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-image: url('https://media.istockphoto.com/id/920701700/photo/kochi-metro-train.jpg?s=612x612&w=0&k=20&c=7ewmhqoK4ee-HcqTt6okogNRRNCzmRnutoItyeeAfss=');
+}
+
+.maincontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(191, 191, 191);
+    padding: 70px 70px;
+    gap: 20px;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    background-color: skyblue;
+}
+
+.mainform{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: yellow;
+    
+}
+input{
+    padding: 10px 10px;
+    border-radius: 5px;
+    width: 300px;
+}
+#link1{
+   margin-bottom: 5px;
+   color: green;
+}
+.password-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.password-container input {
+    width: 300px;
+    padding-right: 35px;
+}
+
+.eye-icon {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    color: black;
+}
+
+
+

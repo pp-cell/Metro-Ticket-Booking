@@ -1,0 +1,86 @@
+/* Navbar container */
+.navbar {
+    position: fixed; /* Fix the navbar at the top */
+    top: 0; /* Position at the top */
+    left: 0; /* Align to the left */
+    width: 100%; /* Full width */
+    z-index: 1000; /* Ensure it stays on top of other elements */
+    padding: 0; /* Increase padding for a larger navbar */
+    background-color: #ffffff; /* White background */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    height: 70px;
+}
+
+/* Navbar brand (logo + app name) */
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    font-size: 1rem; /* Increase font size */
+    font-weight: bold;
+    color: #333333; /* Dark text color */
+}
+
+/* Logo image */
+.navbar-logo {
+    height: 100px; /* Set logo height */
+    margin-right: 10px; /* Add spacing between logo and text */
+}
+
+/* Navbar links */
+.nav-link {
+    font-size: 1.1rem; /* Increase font size */
+    color: #555555; /* Medium text color */
+    margin: 0 10px; /* Add spacing between links */
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.nav-link:hover {
+    color: #007bff; /* Change color on hover */
+}
+
+/* Profile icon */
+.nav-link svg {
+    vertical-align: middle; /* Align icon with text */
+}
+
+/* Logout button */
+.btn-link.nav-link {
+    color: #555555; /* Match link color */
+    text-decoration: none; /* Remove underline */
+    background: none; /* Remove button background */
+    border: none; /* Remove button border */
+    padding: 0; /* Remove padding */
+}
+
+.btn-link.nav-link:hover {
+    color: #007bff; /* Change color on hover */
+}
+
+/* Navbar toggler (hamburger menu) */
+.navbar-toggler {
+    border: none; /* Remove border */
+}
+
+.navbar-toggler:focus {
+    outline: none; /* Remove outline on focus */
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+    .navbar-brand {
+        font-size: 1.2rem; /* Reduce font size on smaller screens */
+    }
+
+    .navbar-logo {
+        height: 30px; /* Reduce logo size on smaller screens */
+    }
+
+    .nav-link {
+        font-size: 1rem; /* Reduce font size on smaller screens */
+    }
+}
+.rightelement{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
